@@ -13,16 +13,10 @@ jobs:
         with:
            submodules: 'recursive'
 
-      - name: Read .env
-        id: hugo-version
-        run: |
-          . ./.env
-          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          hugo-version: '0.90.1'
           extended: true
 
       - name: Build
