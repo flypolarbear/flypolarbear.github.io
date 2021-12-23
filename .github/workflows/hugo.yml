@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
            submodules: 'recursive'
+           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -28,3 +29,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master
+          allow_empty_commit: true
