@@ -8,11 +8,17 @@ theme: "toha"
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: Chinese
+    languageName: English
     weight: 1
+  zh-cn:
+    languageName: Chinese
+    weight: 2
 
 # Control TOC depth
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   tableOfContents:
     startLevel: 2
     endLevel: 6
@@ -23,6 +29,13 @@ enableEmoji: true
 
 # Site parameters
 params:
+  background: /images/default-background.jpg
+
+  logo:
+    main: /images/main-logo.png
+    inverted: /images/inverted-logo.png
+    favicon: /images/favicon.png
+
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
