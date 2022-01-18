@@ -14,6 +14,7 @@
 <link rel=stylesheet href=/css/katex.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+<link rel=icon type=image/png href=/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png>
 <meta property="og:title" content="Hanze's Blog">
 <meta property="og:type" content="website">
 <meta property="og:description" content="Portfolio and personal blog of Hanze.">
@@ -34,6 +35,7 @@
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id=top-navbar>
 <div class=container>
 <a class=navbar-brand href=/>
+<img src=/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png id=logo alt=Logo>
 Hanze's Blog</a>
 <button class="navbar-toggler navbar-dark" id=navbar-toggler type=button data-toggle=collapse data-target=#top-nav-items aria-label=menu>
 <span class=navbar-toggler-icon></span>
@@ -63,9 +65,27 @@ Hanze's Blog</a>
 <li class=nav-item>
 <a class=nav-link id=blog-link href=/posts>Posts</a>
 </li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+<span class="flag-icon flag-icon-gb"></span>
+English
+</a>
+<div class=dropdown-menu aria-labelledby=languageSelector>
+<a class="dropdown-item nav-link languages-item" href=/>
+<span class="flag-icon flag-icon-gb"></span>
+English
+</a>
+<a class="dropdown-item nav-link languages-item" href=/zh-cn/>
+<span class="flag-icon flag-icon-zh-cn"></span>
+Chinese
+</a>
+</div>
+</li>
 </ul>
 </div>
 </div>
+<img src=/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
 </nav>
 <div class="container-fluid home" id=home>
 <style>#homePageBackgroundImageDivStyled{background-image:url(http://localhost:1313/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_500x0_resize_q75_box.jpg)}@media(min-width:500px) and (max-width:800px){#homePageBackgroundImageDivStyled{background-image:url(http://localhost:1313/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_800x0_resize_q75_box.jpg)}}@media(min-width:801px) and (max-width:1200px){#homePageBackgroundImageDivStyled{background-image:url(http://localhost:1313/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_1200x0_resize_q75_box.jpg)}}@media(min-width:1201px) and (max-width:1500px){#homePageBackgroundImageDivStyled{background-image:url(http://localhost:1313/images/default-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_1182514_1500x0_resize_q75_box.jpg)}}@media(min-width:1501px){#homePageBackgroundImageDivStyled{background-image:url(http://localhost:1313/images/default-background.jpg)}}</style>
@@ -389,6 +409,23 @@ professional
 <div class=container>
 <div class=row id=recent-post-cards>
 <div class="col-lg-4 col-md-6 pt-2 post-card">
+<a href=/post/analytics-and-comments/ title="Analytics and Comments" class=post-card-link>
+<div class=card>
+<div class=card-head>
+<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
+</div>
+<div class=card-body>
+<h5 class=card-title>Analytics and Comments</h5>
+<p class="card-text post-summary"> Complete Post Coming Soon&mldr; </p>
+</div>
+<div class=card-footer>
+<span class=float-left>June 8, 2020</span>
+<a href=/post/analytics-and-comments/ title=Read class="float-right btn btn-outline-info btn-sm">Read</a>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-4 col-md-6 pt-2 post-card">
 <a href=/search/ title="অনুসন্ধানের ফলাফল" class=post-card-link>
 <div class=card>
 <div class=card-head>
@@ -396,27 +433,6 @@ professional
 </div>
 <div class=card-body>
 <h5 class=card-title>অনুসন্ধানের ফলাফল</h5>
-<p class="card-text post-summary"> This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```</p>
-</div>
-<div class=card-footer>
-<span class=float-left>June 8, 2010</span>
-<a href=/search/ title=Read class="float-right btn btn-outline-info btn-sm">Read</a>
-</div>
-</div>
-</a>
-</div>
-<div class="col-lg-4 col-md-6 pt-2 post-card">
-<a href=/search/ title="Search Results" class=post-card-link>
-<div class=card>
-<div class=card-head>
-<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
-</div>
-<div class=card-body>
-<h5 class=card-title>Search Results</h5>
 <p class="card-text post-summary"> This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
