@@ -1,54 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanze's Blog</title><link>/posts/</link><description>Recent content in Posts on Hanze's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Resultados de Búsqueda</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Introduction</title><link>/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>/posts/introduction/</guid><description>Greeting! This is an introduction post. This post tests the followings:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hanze's Blog</title><link>/posts/</link><description>Recent content in Posts on Hanze's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>linux-磁盘扩容</title><link>/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/</guid><description>linux-磁盘扩容 【云硬盘 在线扩展分区及文件系统 - 操作指南 - 文档中心 - 腾讯云】 https://cloud.tencent.com/document/product/362/54127?from=copy
+unexpected output in sfdisk &amp;ndash;version解决方法:
+执行:LANG=en_US.UTF-8 就可以了,不行可以重启下物理机试一下.(编码问题)
+lsblk——查看分区大小
+growpart——扩容分区大小
+xfs_growfs——对挂载进行扩容
+具体方法： 操作步骤 查看云硬盘分区信息 登录云服务器，详情请参见 使用标准登录方式登录 Linux 实例（推荐）。
+执行以下命令，查询云硬盘的分区信息。
+fdisk -l
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb 数据盘容量为60GB，包含 MBR 分区 /dev/vdb1，容量为50GB。
+/dev/vdc 数据盘容量为60GB，包含 GPT 分区 /dev/vdc1，容量为50GB。3. 执行以下命令，确认已有分区的文件系统类型。
+df -TH
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb1 文件系统类型为 ext4，已挂载至 /mnt/disk1。
+/dev/vdc1 文件系统类型为 xfs，已挂载至 /mnt/disk2。</description></item><item><title>linux-升级内核</title><link>/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/</guid><description>linux-升级内核 1. 从镜像站点下载内核rpm并安装 wget http://ftp.sjtu.edu.cn/sites/elrepo.org/linux/kernel/el7/x86_64/RPMS/kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm rpm -ivh kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm 2. 修改默认内核版本 # 查看当前实际启动顺序 grub2-editenv list # 查看内核插入顺序 grep &amp;#34;^menuentry&amp;#34; /boot/grub2/grub.cfg | cut -d &amp;#34;&amp;#39;&amp;#34; -f2 # 设置默认启动 grub2-set-default &amp;#39;CentOS Linux (5.15.6-1.el7.elrepo.x86_64) 7 (Core)&amp;#39; # 重新创建内核配置 grub2-mkconfig -o /boot/grub2/grub.cfg # 重启服务器 reboot # 验证当前内核版本 uname -r</description></item><item><title>Introduction</title><link>/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>/posts/introduction/</guid><description>Greeting! This is an introduction post. This post tests the followings:
 Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file.</description></item></channel></rss>

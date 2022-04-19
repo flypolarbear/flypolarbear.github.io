@@ -1,0 +1,201 @@
+<!doctype html><html>
+<head>
+<title>系统</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<link rel=stylesheet href=/css/bootstrap.min.css>
+<link rel=stylesheet href=/css/layouts/main.css>
+<link rel=stylesheet href=/css/navigators/navbar.css>
+<link rel=stylesheet href=/css/plyr.css>
+<link rel=stylesheet href=/css/flag-icon.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+<link rel=stylesheet href=/fontawesome/css/all.min.css>
+<link rel=icon type=image/png href=/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png>
+<meta property="og:title" content="系统">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="/posts/system/">
+<link rel=stylesheet href=/css/layouts/list.css>
+<link rel=stylesheet href=/css/navigators/sidebar.css>
+<link rel=stylesheet href=/css/style.css>
+</head>
+<body data-spy=scroll data-target=#TableOfContents data-offset=80>
+<div class="container-fluid bg-dimmed wrapper">
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+<div class=container>
+<button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span>
+</button>
+<a class=navbar-brand href=/>
+<img src=/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png alt=Logo>
+Hanze's Blog</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse lang-selector" id=top-nav-items>
+<ul class="navbar-nav ml-auto">
+</ul>
+</div>
+</div>
+<img src=/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
+</nav>
+<section class=sidebar-section id=sidebar-section>
+<div class=sidebar-holder>
+<div class=sidebar id=sidebar>
+<form class=mx-auto method=get action=/search>
+<input type=text name=keyword placeholder=搜索 data-search id=search-box>
+</form>
+<div class=sidebar-tree>
+<ul class=tree id=tree>
+<li id=list-heading><a href=/posts data-filter=all>博文</a></li>
+<div class=subtree>
+<li><a href=/posts/introduction/ title=Introduction>Introduction</a></li>
+<li>
+<i class="fas fa-minus-circle"></i><a class=active href=/posts/system/>系统</a>
+<ul class=active>
+<li>
+<i class="fas fa-plus-circle"></i><a href=/posts/system/linux/>linux</a>
+<ul>
+<li><a href=/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/ title=linux-磁盘扩容>linux-磁盘扩容</a></li>
+<li><a href=/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/ title=linux-升级内核>linux-升级内核</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class=content-section id=content-section>
+<div class="content container-fluid" id=content>
+<div class="container-fluid post-card-holder" id=post-card-holder>
+<div class=post-card>
+<a href=/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/ class=post-card-link>
+<div class=card>
+<div class=card-head>
+<img class=card-img-top src=/images/default-hero.jpg alt="Hero Image">
+</div>
+<div class=card-body>
+<h5 class=card-title>linux-升级内核</h5>
+<p class="card-text post-summary">linux-升级内核 1. 从镜像站点下载内核rpm并安装 wget http://ftp.sjtu.edu.cn/sites/elrepo.org/linux/kernel/el7/x86_64/RPMS/kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm rpm -ivh kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm 2. 修改默认内核版本 # 查看当前实际启动顺序 grub2-editenv list # 查看内核插入顺序 grep "^menuentry" /boot/grub2/grub.cfg | cut -d "'" -f2 # 设置默认启动 grub2-set-default 'CentOS Linux (5.15.6-1.el7.elrepo.x86_64) 7 (Core)' # 重新创建内核配置 grub2-mkconfig -o /boot/grub2/grub.cfg # 重启服务器 reboot # 验证当前内核版本 uname -r </p>
+</div>
+<div class=card-footer>
+<span class=float-left>April 19, 2022</span>
+<a href=/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/ class="float-right btn btn-outline-info btn-sm">阅读</a>
+</div>
+</div>
+</a>
+</div>
+<div class=post-card>
+<a href=/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/ class=post-card-link>
+<div class=card>
+<div class=card-head>
+<img class=card-img-top src=/images/default-hero.jpg alt="Hero Image">
+</div>
+<div class=card-body>
+<h5 class=card-title>linux-磁盘扩容</h5>
+<p class="card-text post-summary">linux-磁盘扩容 【云硬盘 在线扩展分区及文件系统 - 操作指南 - 文档中心 - 腾讯云】 https://cloud.tencent.com/document/product/362/54127?from=copy
+unexpected output in sfdisk &ndash;version解决方法:
+执行:LANG=en_US.UTF-8 就可以了,不行可以重启下物理机试一下.(编码问题)
+lsblk——查看分区大小
+growpart——扩容分区大小
+xfs_growfs——对挂载进行扩容
+具体方法： 操作步骤 查看云硬盘分区信息 登录云服务器，详情请参见 使用标准登录方式登录 Linux 实例（推荐）。
+执行以下命令，查询云硬盘的分区信息。
+fdisk -l
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb 数据盘容量为60GB，包含 MBR 分区 /dev/vdb1，容量为50GB。
+/dev/vdc 数据盘容量为60GB，包含 GPT 分区 /dev/vdc1，容量为50GB。3. 执行以下命令，确认已有分区的文件系统类型。
+df -TH
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb1 文件系统类型为 ext4，已挂载至 /mnt/disk1。
+/dev/vdc1 文件系统类型为 xfs，已挂载至 /mnt/disk2。</p>
+</div>
+<div class=card-footer>
+<span class=float-left>April 19, 2022</span>
+<a href=/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/ class="float-right btn btn-outline-info btn-sm">阅读</a>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class=paginator>
+</div>
+</div>
+</section>
+</div>
+<footer id=footer class="container-fluid text-center align-content-center footer pb-2">
+<div class="container pt-5">
+<div class="row text-left">
+<div class="col-md-4 col-sm-12">
+<h5>导航</h5>
+<ul>
+<li class=nav-item>
+<a class=smooth-scroll href=#about>关于</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=#experiences>经历</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=#projects>项目</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=#recent-posts>最近文章</a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-12">
+<h5>联系方式:</h5>
+<ul>
+<li><a href=mailto:liu.hanze@outlook.com target=_blank rel=noopener>
+<span><i class="fas fa-envelope"></i></span> <span>liu.hanze@outlook.com</span>
+</a></li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-12">
+<p>通过电子邮件接收最新信息</p>
+<form method=post action=https://blogtrottr.com>
+<div class=form-group>
+<input type=email class=form-control name=btr_email placeholder="填入 E-mail"><br>
+<input type=hidden name=btr_url value=index.xml>
+<input type=hidden name=schedule_type value=1>
+<small id=emailHelp class="form-text text-muted">输入您的电子邮件地址，即表示您同意接收本网站的时事通讯</small>
+<button type=submit class="btn btn-info"> 提交 </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<hr>
+<div class=container>
+<div class="row text-left">
+<div class=col-md-4>
+<a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener>
+<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
+Toha
+</a>
+</div>
+<div class="col-md-4 text-center">© 2022 Copyright.</div>
+<div class="col-md-4 text-right">
+<a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+<script type=text/javascript src=/js/popper.min.js></script>
+<script type=text/javascript src=/js/bootstrap.min.js></script>
+<script type=text/javascript src=/js/navbar.js></script>
+<script type=text/javascript src=/js/plyr.js></script>
+<script type=text/javascript src=/js/main.js></script>
+<script src=/js/list.js></script>
+</body>
+</html>

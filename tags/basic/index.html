@@ -9,9 +9,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link rel=stylesheet href=/css/katex.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+<link rel=stylesheet href=/fontawesome/css/all.min.css>
 <link rel=icon type=image/png href=/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png>
 <meta property="og:title" content="Basic">
 <meta property="og:description" content>
@@ -46,11 +45,11 @@ Hanze's Blog</a>
 <div class=sidebar-holder>
 <div class=sidebar id=sidebar>
 <form class=mx-auto method=get action=/search>
-<input type=text name=keyword placeholder=Search data-search id=search-box>
+<input type=text name=keyword placeholder=搜索 data-search id=search-box>
 </form>
 <div class=sidebar-tree>
 <ul class=tree id=tree>
-<li id=list-heading><a href=/tags data-filter=all>Tags</a></li>
+<li id=list-heading><a href=/tags data-filter=all>标签</a></li>
 <div class="subtree taxonomy-terms">
 <li><a class="taxonomy-term active" href=/tags/basic/ data-taxonomy-term=basic><span class=taxonomy-label>Basic</span></a></li>
 <li><a class=taxonomy-term href=/tags/multi-lingual/ data-taxonomy-term=multi-lingual><span class=taxonomy-label>Multi-lingual</span></a></li>
@@ -76,7 +75,7 @@ Hero image is in the same directory as the post. This post should be at top of t
 </div>
 <div class=card-footer>
 <span class=float-left>June 8, 2020</span>
-<a href=/posts/introduction/ class="float-right btn btn-outline-info btn-sm">Read</a>
+<a href=/posts/introduction/ class="float-right btn btn-outline-info btn-sm">阅读</a>
 </div>
 </div>
 </a>
@@ -87,47 +86,43 @@ Hero image is in the same directory as the post. This post should be at top of t
 </div>
 </section>
 </div>
-<footer class="container-fluid text-center align-content-center footer pb-2">
+<footer id=footer class="container-fluid text-center align-content-center footer pb-2">
 <div class="container pt-5">
 <div class="row text-left">
 <div class="col-md-4 col-sm-12">
-<h5>Navigation</h5>
+<h5>导航</h5>
 <ul>
 <li class=nav-item>
-<a class=smooth-scroll href=#about>About</a>
+<a class=smooth-scroll href=#about>关于</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#skills>Skills</a>
+<a class=smooth-scroll href=#experiences>经历</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#experiences>Experiences</a>
+<a class=smooth-scroll href=#projects>项目</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#projects>Projects</a>
-</li>
-<li class=nav-item>
-<a class=smooth-scroll href=#recent-posts>Recent Posts</a>
+<a class=smooth-scroll href=#recent-posts>最近文章</a>
 </li>
 </ul>
 </div>
 <div class="col-md-4 col-sm-12">
-<h5>Contact me:</h5>
+<h5>联系方式:</h5>
 <ul>
 <li><a href=mailto:liu.hanze@outlook.com target=_blank rel=noopener>
 <span><i class="fas fa-envelope"></i></span> <span>liu.hanze@outlook.com</span>
 </a></li>
-<li><span><i class="fas fa-phone-alt"></i></span> <span>+0123456789</span></li>
 </ul>
 </div>
 <div class="col-md-4 col-sm-12">
-<p>Stay up to date with email notification</p>
+<p>通过电子邮件接收最新信息</p>
 <form method=post action=https://blogtrottr.com>
 <div class=form-group>
-<input type=email class=form-control name=btr_email placeholder="Enter email"><br>
+<input type=email class=form-control name=btr_email placeholder="填入 E-mail"><br>
 <input type=hidden name=btr_url value=index.xml>
 <input type=hidden name=schedule_type value=1>
-<small id=emailHelp class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
-<button type=submit class="btn btn-info"> Submit </button>
+<small id=emailHelp class="form-text text-muted">输入您的电子邮件地址，即表示您同意接收本网站的时事通讯</small>
+<button type=submit class="btn btn-info"> 提交 </button>
 </div>
 </form>
 </div>
@@ -142,7 +137,7 @@ Hero image is in the same directory as the post. This post should be at top of t
 Toha
 </a>
 </div>
-<div class="col-md-4 text-center">© 2020 Copyright.</div>
+<div class="col-md-4 text-center">© 2022 Copyright.</div>
 <div class="col-md-4 text-right">
 <a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
@@ -157,8 +152,6 @@ Toha
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
-<script type=text/javascript defer src=/js/katex.min.js></script>
-<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=/js/list.js></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!doctype html><html lang=en>
+<!doctype html><html lang=zh-cn>
 <head>
 <meta name=generator content="Hugo 0.90.1">
 <title>Hanze's Blog</title>
@@ -11,9 +11,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link rel=stylesheet href=/css/katex.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+<link rel=stylesheet href=/fontawesome/css/all.min.css>
 <link rel=icon type=image/png href=/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png>
 <meta property="og:title" content="Hanze's Blog">
 <meta property="og:type" content="website">
@@ -43,41 +42,36 @@ Hanze's Blog</a>
 <div class="collapse navbar-collapse" id=top-nav-items>
 <ul class="navbar-nav ml-auto">
 <li class=nav-item>
-<a class=nav-link href=#home>Home</a>
+<a class=nav-link href=#home>主页</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#about>About</a>
+<a class=nav-link href=#about>关于</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#skills>Skills</a>
+<a class=nav-link href=#experiences>经历</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#experiences>Experiences</a>
+<a class=nav-link href=#projects>项目</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#projects>Projects</a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a>
-<div class=dropdown-menu aria-labelledby=navbarDropdown>
-</div>
+<a class=nav-link href=#recent-posts>最近文章</a>
 </li>
 <li class=nav-item>
-<a class=nav-link id=blog-link href=/posts>Posts</a>
+<a class=nav-link id=blog-link href=/posts>博文</a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
-<span class="flag-icon flag-icon-gb"></span>
-English
+<span class="flag-icon flag-icon-zh-cn"></span>
+Chinese
 </a>
 <div class=dropdown-menu aria-labelledby=languageSelector>
 <a class="dropdown-item nav-link languages-item" href=/>
-<span class="flag-icon flag-icon-gb"></span>
-English
-</a>
-<a class="dropdown-item nav-link languages-item" href=/zh-cn/>
 <span class="flag-icon flag-icon-zh-cn"></span>
 Chinese
+</a>
+<a class="dropdown-item nav-link languages-item" href=/en/>
+<span class="flag-icon flag-icon-gb"></span>
+English
 </a>
 </div>
 </li>
@@ -93,19 +87,18 @@ Chinese
 <div id=homePageBackgroundImageDivStyled class="background container-fluid"></div>
 <div class="container content text-center">
 <img src=/images/default-avatar_hu0f4a10f1ffa520c1468c533bdcec2efc_34246_148x148_fit_box_3.png class="rounded-circle mx-auto d-block img-fluid" alt="Author Image">
-<h1 class=greeting> Hi, I am H</h1>
+<h1 class=greeting> Hi, I am Henry</h1>
 <div class=typing-carousel>
 <span id=ityped class=ityped></span>
 <span class=ityped-cursor></span>
 </div>
 <ul id=typing-carousel-data>
-<li>I am a Developer</li>
 <li>I am a Devops</li>
 <li>I love servers</li>
 <li>I work on open-source projects</li>
 <li>I love to work with some fun projects</li>
 </ul>
-<a href=#about aria-label="Read More - H"><i class="arrow bounce fa fa-chevron-down"></i></a>
+<a href=#about aria-label="阅读 更多的 - Henry"><i class="arrow bounce fa fa-chevron-down"></i></a>
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-white">
@@ -114,11 +107,11 @@ Chinese
 <div class=col-sm-6>
 <h3 class=p-1>Hanze</h3>
 <h5 class=p-1>
-Software Engineer
-at <a href=https://www.example.com title="Example Co." target=_blank rel=noopener>Example Co.</a>
+SRE Engineer
+at <a href=https://www.example.com title=帆软软件 target=_blank rel=noopener>帆软软件</a>
 </h5>
 <p class="p-1 text-justify">
-I am a passionate software engineer with x years of working experience. I built OSS tools for <a href=https://kubernetes.io/>Kubernetes</a> using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.
+I am a passionate SRE Engineer with 2 years of working experience. I built OSS tools for <a href=https://kubernetes.io/>Kubernetes</a> using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects ,etc.
 </p>
 <div class="text-container ml-auto">
 <ul class="social-link d-flex">
@@ -127,7 +120,7 @@ I am a passionate software engineer with x years of working experience. I built 
 </li>
 </ul>
 </div>
-<a href=/files/resume.pdf title="My resume" target=#><button class="btn btn-dark">My resume</button></a>
+<a href=/files/resume.pdf title=我的简历 target=#><button class="btn btn-dark">我的简历</button></a>
 </div>
 <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
 <div class=row>
@@ -159,56 +152,9 @@ I am a passionate software engineer with x years of working experience. I built 
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
-<div class="container-fluid anchor pb-5 skills-section">
-<h1 class=text-center>
-<span id=skills></span>Skills</h1>
-<div class="container d-flex-block">
-<div class=row id=primary-skills>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://kubernetes.io/ title=Kubernetes target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<h5 class=card-title>Kubernetes</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://golang.org/ title="Go Development" target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<h5 class=card-title>Go Development</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link>
-<div class=card>
-<div class="card-head d-flex">
-<h5 class=card-title>Cloud Computing</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Worked with most of the major clouds such as GCP, AWS, Azure etc.</p>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container-fluid section-holder d-flex bg-white">
 <div class="container-fluid anchor pb-5 experiences-section">
 <h1 class=text-center>
-<span id=experiences></span>Experiences
-</h1>
+<span id=experiences></span>经历</h1>
 <div class="container timeline text-justify">
 <div class="row align-items-center d-flex">
 <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
@@ -218,12 +164,12 @@ I am a passionate software engineer with x years of working experience. I built 
 <div class=experience-entry-heading>
 <h5>Senior Software Engineer</h5>
 <h6><a href=https://www.example.com title="Example Co." target=_blank rel=noopener>Example Co.</a></h6>
-<p class=text-muted>Nov 2019 - Present,
+<p class=text-muted>Nov 2019 - 至今,
 Dhaka Branch
 </p>
 </div>
 <p>Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.</p>
-<h6 class=text-muted>Responsibilities:</h6>
+<h6 class=text-muted>职责:</h6>
 <ul class=justify-content-around>
 <li>Design and develop XYZ tool for ABC task</li>
 <li>Design, develop and manage disaster recovery tool <a href=https://www.example.com>Xtool</a> that backup Kubernetes volumes, databases, and cluster&rsquo;s resource definition.</li>
@@ -252,7 +198,7 @@ Nowhere
 </p>
 </div>
 <p>PreExample Co. is a gateway company to enter into Example co. So, nothing special here.</p>
-<h6 class=text-muted>Responsibilities:</h6>
+<h6 class=text-muted>职责:</h6>
 <ul class=justify-content-around>
 <li>Write lots of example codes.</li>
 <li>Read lots of examples.</li>
@@ -266,9 +212,10 @@ Nowhere
 </div>
 </div>
 </div>
-<div class="container-fluid section-holder d-flex bg-dimmed">
+<div class="container-fluid section-holder d-flex bg-white">
 <div class="container-fluid anchor pb-5 projects-section" id=projects>
-<h1 class=text-center>Projects</h1>
+<h1 class=text-center>
+<span id=projects></span>项目</h1>
 <div class="container ml-auto text-center">
 <div class="btn-group flex-wrap" role=group id=project-filter-buttons>
 <button type=button class="btn btn-dark" data-filter=all>
@@ -402,12 +349,63 @@ professional
 </div>
 </div>
 </div>
-<div class="container-fluid section-holder d-flex bg-white">
+<div class="container-fluid section-holder d-flex bg-dimmed">
 <div class="container-fluid anchor pb-5 recent-posts-section">
 <h1 class=text-center>
-<span id=recent-posts></span>Recent Posts</h1>
+<span id=recent-posts></span>最近文章</h1>
 <div class=container>
 <div class=row id=recent-post-cards>
+<div class="col-lg-4 col-md-6 pt-2 post-card">
+<a href=/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/ title=linux-磁盘扩容 class=post-card-link>
+<div class=card>
+<div class=card-head>
+<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
+</div>
+<div class=card-body>
+<h5 class=card-title>linux-磁盘扩容</h5>
+<p class="card-text post-summary"> linux-磁盘扩容 【云硬盘 在线扩展分区及文件系统 - 操作指南 - 文档中心 - 腾讯云】 https://cloud.tencent.com/document/product/362/54127?from=copy
+unexpected output in sfdisk &ndash;version解决方法:
+执行:LANG=en_US.UTF-8 就可以了,不行可以重启下物理机试一下.(编码问题)
+lsblk——查看分区大小
+growpart——扩容分区大小
+xfs_growfs——对挂载进行扩容
+具体方法： 操作步骤 查看云硬盘分区信息 登录云服务器，详情请参见 使用标准登录方式登录 Linux 实例（推荐）。
+执行以下命令，查询云硬盘的分区信息。
+fdisk -l
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb 数据盘容量为60GB，包含 MBR 分区 /dev/vdb1，容量为50GB。
+/dev/vdc 数据盘容量为60GB，包含 GPT 分区 /dev/vdc1，容量为50GB。3. 执行以下命令，确认已有分区的文件系统类型。
+df -TH
+返回结果如下图所示：
+可从图中获取以下信息：
+/dev/vdb1 文件系统类型为 ext4，已挂载至 /mnt/disk1。
+/dev/vdc1 文件系统类型为 xfs，已挂载至 /mnt/disk2。</p>
+</div>
+<div class=card-footer>
+<span class=float-left>April 19, 2022</span>
+<a href=/posts/system/linux/linux-%E7%A3%81%E7%9B%98%E6%89%A9%E5%AE%B9/ title=阅读 class="float-right btn btn-outline-info btn-sm">阅读</a>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-4 col-md-6 pt-2 post-card">
+<a href=/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/ title=linux-升级内核 class=post-card-link>
+<div class=card>
+<div class=card-head>
+<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
+</div>
+<div class=card-body>
+<h5 class=card-title>linux-升级内核</h5>
+<p class="card-text post-summary"> linux-升级内核 1. 从镜像站点下载内核rpm并安装 wget http://ftp.sjtu.edu.cn/sites/elrepo.org/linux/kernel/el7/x86_64/RPMS/kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm rpm -ivh kernel-ml-5.15.6-1.el7.elrepo.x86_64.rpm 2. 修改默认内核版本 # 查看当前实际启动顺序 grub2-editenv list # 查看内核插入顺序 grep "^menuentry" /boot/grub2/grub.cfg | cut -d "'" -f2 # 设置默认启动 grub2-set-default 'CentOS Linux (5.15.6-1.el7.elrepo.x86_64) 7 (Core)' # 重新创建内核配置 grub2-mkconfig -o /boot/grub2/grub.cfg # 重启服务器 reboot # 验证当前内核版本 uname -r </p>
+</div>
+<div class=card-footer>
+<span class=float-left>April 19, 2022</span>
+<a href=/posts/system/linux/linux-%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/ title=阅读 class="float-right btn btn-outline-info btn-sm">阅读</a>
+</div>
+</div>
+</a>
+</div>
 <div class="col-lg-4 col-md-6 pt-2 post-card">
 <a href=/posts/introduction/ title=Introduction class=post-card-link>
 <div class=card>
@@ -421,45 +419,7 @@ Hero image is in the same directory as the post. This post should be at top of t
 </div>
 <div class=card-footer>
 <span class=float-left>June 8, 2020</span>
-<a href=/posts/introduction/ title=Read class="float-right btn btn-outline-info btn-sm">Read</a>
-</div>
-</div>
-</a>
-</div>
-<div class="col-lg-4 col-md-6 pt-2 post-card">
-<a href=/posts/getting-started-/github-pages/ title="Deploy site in Github Pages" class=post-card-link>
-<div class=card>
-<div class=card-head>
-<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
-</div>
-<div class=card-body>
-<h5 class=card-title>Deploy site in Github Pages</h5>
-<p class="card-text post-summary"> Complete Post Coming Soon&mldr; </p>
-</div>
-<div class=card-footer>
-<span class=float-left>June 8, 2020</span>
-<a href=/posts/getting-started-/github-pages/ title=Read class="float-right btn btn-outline-info btn-sm">Read</a>
-</div>
-</div>
-</a>
-</div>
-<div class="col-lg-4 col-md-6 pt-2 post-card">
-<a href=/search/ title="অনুসন্ধানের ফলাফল" class=post-card-link>
-<div class=card>
-<div class=card-head>
-<img class=card-img-top src=/images/default-hero.jpg alt="Card image cap">
-</div>
-<div class=card-body>
-<h5 class=card-title>অনুসন্ধানের ফলাফল</h5>
-<p class="card-text post-summary"> This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```</p>
-</div>
-<div class=card-footer>
-<span class=float-left>June 8, 2010</span>
-<a href=/search/ title=Read class="float-right btn btn-outline-info btn-sm">Read</a>
+<a href=/posts/introduction/ title=阅读 class="float-right btn btn-outline-info btn-sm">阅读</a>
 </div>
 </div>
 </a>
@@ -468,47 +428,43 @@ Initial setup Search depends on additional output content type of JSON in config
 </div>
 </div>
 </div>
-<footer class="container-fluid text-center align-content-center footer pb-2">
+<footer id=footer class="container-fluid text-center align-content-center footer pb-2">
 <div class="container pt-5">
 <div class="row text-left">
 <div class="col-md-4 col-sm-12">
-<h5>Navigation</h5>
+<h5>导航</h5>
 <ul>
 <li class=nav-item>
-<a class=smooth-scroll href=#about>About</a>
+<a class=smooth-scroll href=#about>关于</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#skills>Skills</a>
+<a class=smooth-scroll href=#experiences>经历</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#experiences>Experiences</a>
+<a class=smooth-scroll href=#projects>项目</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#projects>Projects</a>
-</li>
-<li class=nav-item>
-<a class=smooth-scroll href=#recent-posts>Recent Posts</a>
+<a class=smooth-scroll href=#recent-posts>最近文章</a>
 </li>
 </ul>
 </div>
 <div class="col-md-4 col-sm-12">
-<h5>Contact me:</h5>
+<h5>联系方式:</h5>
 <ul>
 <li><a href=mailto:liu.hanze@outlook.com target=_blank rel=noopener>
 <span><i class="fas fa-envelope"></i></span> <span>liu.hanze@outlook.com</span>
 </a></li>
-<li><span><i class="fas fa-phone-alt"></i></span> <span>+0123456789</span></li>
 </ul>
 </div>
 <div class="col-md-4 col-sm-12">
-<p>Stay up to date with email notification</p>
+<p>通过电子邮件接收最新信息</p>
 <form method=post action=https://blogtrottr.com>
 <div class=form-group>
-<input type=email class=form-control name=btr_email placeholder="Enter email"><br>
+<input type=email class=form-control name=btr_email placeholder="填入 E-mail"><br>
 <input type=hidden name=btr_url value=index.xml>
 <input type=hidden name=schedule_type value=1>
-<small id=emailHelp class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
-<button type=submit class="btn btn-info"> Submit </button>
+<small id=emailHelp class="form-text text-muted">输入您的电子邮件地址，即表示您同意接收本网站的时事通讯</small>
+<button type=submit class="btn btn-info"> 提交 </button>
 </div>
 </form>
 </div>
@@ -523,7 +479,7 @@ Initial setup Search depends on additional output content type of JSON in config
 Toha
 </a>
 </div>
-<div class="col-md-4 text-center">© 2020 Copyright.</div>
+<div class="col-md-4 text-center">© 2022 Copyright.</div>
 <div class="col-md-4 text-right">
 <a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
@@ -538,8 +494,6 @@ Toha
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
-<script type=text/javascript defer src=/js/katex.min.js></script>
-<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=/js/itype.min.js></script>
 <script src=/js/github-button.js></script>
 <script src=/js/home.js></script>
