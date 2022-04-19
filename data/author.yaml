@@ -9,7 +9,7 @@ greeting: "Hi, I am"
 # give your contact information. they will be used in the footer
 contactInfo:
   email: "liu.hanze@outlook.com"
-  phone: "+86 15195907908"
+  # phone: "+86 15195907908"
 
 # a summary of what you do
 summary:
